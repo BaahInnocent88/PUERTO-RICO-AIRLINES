@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUERTO RICO AIRLINES</title>
+    <style>
+        /* general styling */
+        *{
+            box-sizing: border-box;
+            font-family:Tahoma, "Geneva", Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: rgb(242, 198, 144);
+        }
+        /* header */
+        header{
+            background-color: bisque;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid;
+        }
+
+        .top-header{
+            color:rgb(106, 59, 2);
+            padding: 40px;
+            text-align: center;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin: 40px;
+        }
+
+        li{
+            background-color: rgb(177, 112, 34);
+            color: white;
+            padding: 10px;
+            border: 0.5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        li:hover{
+            background-color: rgb(238, 215, 11);
+            color: black;
+        }
+
+        /* body */
+
+        .main-body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 30px;
+        }
+        /* flights, group trips and discount styling */
+        .main-mid{
+            background-color: rgb(254, 253, 253);
+            padding: 20px;
+            margin: 20px;
+            box-shadow: rgba(8, 8, 8, 0.5) 2px 2px 2px 2px;
+            width: 280px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        /* about us styling */
+        .about-learn{
+            background-color: rgb(254, 253, 253);
+            box-shadow: rgba(8, 8, 8, 0.5) 0px 4px 6px;
+            margin: 40px auto;
+            padding: 20px;
+            width: 80%;
+            text-align: center;
+            order: 4; /* forces it to appear last */
+        }
+
+        .btn{
+            background-color: rgb(177, 112, 34);
+            width: 100%;
+            color: white;
+            padding: 10px;
+            font-size: large;
+            margin-top: 10px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover{
+            background-color: rgb(238, 215, 11);
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <!-- hearder -->
+        <header class="top-head">
+            <h2>PUERTO RICO AIRLINES</h2>
+            <nav>
+                <!-- nav bar -->
+                <ul>
+                    <li>HOME</li>
+                    <li>FLIGHT</li>
+                    <li>SUPPORT</li>
+                    <li>LOGIN</li>
+                </ul>
+            </nav>
+        </header>   
+    </div>
+
+    
+    <!-- flights -->
+    <div class="main-body">
+        <div class="main-mid">
+            <h2>Flights</h2>
+            <p>Come check out our sweet flights!. Direct flights available daily</p>
+            <button class="btn">Let's Go</button>
+        </div>
+            <!-- group trips -->
+        <div class="main-mid">
+            <h2>Group Trips</h2>
+            <p>We offer great group rates! For families with 4 members to huge gatherings with 50+!</p>
+            <button class="btn">Group Rates</button>
+        </div>
+            <!-- discount flight -->
+        <div class="main-mid">
+            <h2>Discount Flights</h2>
+            <p>Discount flight available for individuals! Single chair filler tickets for low rates!</p>
+            <button class="btn">Jump In</button>
+        </div>
+
+            <!-- About Us section -->
+        <div class="about-learn">
+            <h2>Discount Flights</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt labore nesciunt error earum aspernatur ea id fugiat rerum magnam. Beatae odit provident eaque qui non aspernatur doloremque labore quidem dolorem!
+            Qui laboriosam nobis ex non voluptas distinctio iste ullam nisi, ad voluptatem est sit quisquam impedit quod, exercitationem sapiente corporis consequuntur, cumque at consectetur delectus. Deserunt officia porro nobis officiis.
+            Cum laudantium deleniti sed nam excepturi cumque eaque eveniet laborum voluptatum aspernatur quaerat minus aut repudiandae, harum amet nostrum exercitationem nemo. Tenetur sequi tempora dicta magni modi! Aliquam, aut itaque.</p>
+            <button class="btn">Learn More</button>
+        </div>
+    </div>
+</body>
+</html>
